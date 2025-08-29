@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Patrick Wairegi — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top navigation -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <div class="logo">PW</div>
+        <div>
+          <div class="name">Patrick Wairegi</div>
+          <div class="tag">Web Developer • Designer</div>
+        </div>
+      </div>
+
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#case-studies" class="nav-link">Case Studies</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#writing" class="nav-link">Writing</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- 1: Home -->
+    <section id="home" class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Hi, I'm Patrick.<br/><span class="accent">I build web experiences.</span></h1>
+          <p class="lead">Front-end & full-stack developer focused on performance, accessibility, and clean design.</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#projects">See Projects</a>
+            <a class="btn ghost" href="#contact">Hire me</a>
+          </div>
+          <ul class="stats">
+            <li><strong>25+</strong><span>Projects</span></li>
+            <li><strong>5 yrs</strong><span>Experience</span></li>
+            <li><strong>100%</strong><span>Client satisfaction</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-media">
+          <div class="card preview">
+            <div class="preview-title">Portfolio Preview</div>
+            <div class="preview-body"><img src="cay.jpg" height="100"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2: About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <div class="split">
+          <div>
+            <p>I'm Patrick — I turn product ideas into delightful, accessible experiences. I care about performance budgets, maintainable code, and shipping value quickly.</p>
+            <p>I work with React/Next.js, TypeScript, Tailwind CSS, Node, and Postgres. I enjoy building design systems and mentoring other devs.</p>
+            <p><strong>Location:</strong> Nairobi, Kenya • Remote-friendly</p>
+          </div>
+          <div class="facts">
+            <div class="fact"><strong>Languages</strong><span>English, Swahili</span></div>
+            <div class="fact"><strong>Focus</strong><span>Frontend UX, full-stack JS</span></div>
+            <div class="fact"><strong>Interests</strong><span>Design systems, DX, performance</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3: Skills -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="grid-4">
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <p>React • Next.js • TypeScript • Tailwind • Vite • Accessibility</p>
+          </div>
+          <div class="skill-card">
+            <h3>Backend</h3>
+            <p>Node.js • Express • PostgreSQL • Prisma • REST • Auth</p>
+          </div>
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <p>Git • GitHub Actions • Docker • CI/CD • Vercel</p>
+          </div>
+          <div class="skill-card">
+            <h3>Testing</h3>
+            <p>Vitest • Playwright • ESLint • Prettier</p>
+          </div>
+        </div>
+
+        <h3 style="margin-top:1.2rem">Highlights</h3>
+        <ul class="bullets">
+          <li>Led a design system rollout that reduced UI dev time by ~40%</li>
+          <li>Improved core product conversion by 18% through UX improvements</li>
+          <li>Cut bundle sizes by 43% with code-splitting and optimization</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4: Experience -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h4>Frontend Engineer — Amara Sekani Group</h4>
+            <span class="period">2023 — 2025</span>
+            <p>Led redesign of the main product; introduced a component library and testing that increased release confidence.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h4>Full-Stack Developer (Freelance)</h4>
+            <span class="period">2021 — 2023</span>
+            <p>Built responsive sites and apps for clients, integrated CMS, and set up CI/CD pipelines.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5: Projects -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid-3">
+          <article class="project-card">
+            <h3>SmartRent UI</h3>
+            <p class="meta">React • TypeScript • Tailwind</p>
+            <p>Property management dashboard with real-time occupancy, payments, and insights.</p>
+            <a class="link" href="#" onclick="return false">View case study →</a>
+          </article>
+
+          <article class="project-card">
+            <h3>MarketPulse</h3>
+            <p class="meta">Next.js • Prisma • PostgreSQL</p>
+            <p>Lightweight analytics for small e-commerce stores, focused on actionable metrics.</p>
+            <a class="link" href="#" onclick="return false">View case study →</a>
+          </article>
+
+          <article class="project-card">
+            <h3>PixBoard</h3>
+            <p class="meta">Vite • Canvas API</p>
+            <p>Collaborative whiteboard app with sticky notes and realtime cursors.</p>
+            <a class="link" href="#" onclick="return false">View case study →</a>
+          </article>
+
+          <!-- more cards (repeat) -->
+          <article class="project-card">
+            <h3>OpenUI Kit</h3>
+            <p class="meta">Tailwind • Components</p>
+            <p>Starter UI library with tokens and documentation to help teams ship faster.</p>
+            <a class="link" href="#" onclick="return false">Download →</a>
+          </article>
+
+          <article class="project-card">
+            <h3>HealthTrack</h3>
+            <p class="meta">React • Charts</p>
+            <p>Personal wellness tracker with charts, reminders, and goals.</p>
+            <a class="link" href="#" onclick="return false">Try demo →</a>
+          </article>
+
+          <article class="project-card">
+            <h3>DevBlog</h3>
+            <p class="meta">Next.js • MDX</p>
+            <p>Fast developer blog using MDX and client-side search.</p>
+            <a class="link" href="#" onclick="return false">Read →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6: Case Studies -->
+    <section id="case-studies" class="section">
+      <div class="container">
+        <h2>Case Studies</h2>
+
+        <div class="case-grid">
+          <div class="case">
+            <h3>Checkout Revamp</h3>
+            <p class="impact">Impact: −32% drop-off, +14% revenue</p>
+            <p>We mapped friction points, simplified steps, added guest checkout, and optimized mobile layout.</p>
+          </div>
+
+          <div class="case">
+            <h3>Design System Sprint</h3>
+            <p class="impact">Impact: 40% faster feature delivery</p>
+            <p>Built tokens, primitives, and documentation; trained the team on governance to ensure long-term consistency.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7: Services -->
+    <section id="services" class="section alt">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="grid-3">
+          <div class="service">
+            <h3>Web App Development</h3>
+            <p>From concept to launch with modern stacks (React/Next.js) and best practices.</p>
+          </div>
+          <div class="service">
+            <h3>UI/UX & Design Systems</h3>
+            <p>Reusable components, tokens, and accessible patterns to speed up product teams.</p>
+          </div>
+          <div class="service">
+            <h3>Performance & Accessibility</h3>
+            <p>Audits, budgets, and pragmatic fixes that produce measurable improvements.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8: Writing -->
+    <section id="writing" class="section">
+      <div class="container">
+        <h2>Writing & Talks</h2>
+        <div class="grid-2">
+          <article class="post">
+            <h3>Taming Complex UIs with Design Systems</h3>
+            <p>How to roll out a design system without slowing product delivery.</p>
+            <a class="link" href="#" onclick="return false">Read →</a>
+          </article>
+
+          <article class="post">
+            <h3>Performance Budgets that Teams Use</h3>
+            <p>Setting practical budgets and enforcing them with automation.</p>
+            <a class="link" href="#" onclick="return false">Read →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9: Testimonials -->
+    <section id="testimonials" class="section alt">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="grid-3">
+          <blockquote class="testimonial">
+            <p>“Patrick elevated our UX while cutting delivery time in half.”</p>
+            <cite>— Linda M., Product Lead</cite>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <p>“A rare blend of design sense and engineering rigor.”</p>
+            <cite>— Sam K., CTO</cite>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <p>“Clear communicator, proactive, and detail-oriented.”</p>
+            <cite>— Joy A., Project Manager</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10: Contact -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="split">
+          <div class="contact-card">
+            <p>I’m available for freelance and full-time opportunities. Tell me about your project and timeline.</p>
+
+            <ul class="contact-info">
+              <li><strong>Email:</strong> <a href="mailto:patrickwairegistd5@gmail.com">patrickwairegistd5@gmail.com</a></li>
+              <li><strong>Phone:</strong> <a href="tel:+254791421859">+254 791 421 859</a></li>
+              <li><strong>Location:</strong> Nairobi, Kenya</li>
+            </ul>
+
+            <div class="socials">
+              <a href="#" onclick="return false">GitHub</a> · <a href="#" onclick="return false">LinkedIn</a> · <a href="#" onclick="return false">Website</a>
+            </div>
+          </div>
+
+          <form id="contactForm" class="contact-form" onsubmit="return submitForm(event)">
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" rows="6" required></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button class="btn primary" type="submit">Send message</button>
+              <button class="btn ghost" type="reset">Reset</button>
+            </div>
+            <small class="note">This demo does not send messages — wire a backend or use a service (Formspree, Netlify Forms) to accept submissions.</small>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div>© <span id="year"></span> Patrick Wairegi — All rights reserved.</div>
+      <div><a href="mailto:patrickwairegistd5@gmail.com">patrickwairegistd5@gmail.com</a></div>
+    </div>
+  </footer>
+
+  <button id="backToTop" title="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
